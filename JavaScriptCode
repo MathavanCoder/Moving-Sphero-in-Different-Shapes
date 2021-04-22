@@ -1,0 +1,15 @@
+// we will move our robot in a square, trapezium, rectangle and in the letter S.
+
+//First thing is Square
+//Remember, 0 degrees is forwards, 180 is backwards, 270 is left and 90 is right.
+
+await roll(90, 55, 3)
+await delay(0.33)
+await roll(180, 55, 3)
+await delay(0.33)
+await roll(270, 55, 3)
+await delay(0.33)
+await roll(0, 55, 3)
+stopRoll()
+
+//Trapezium, the angles are 45, 90, 135, 270
